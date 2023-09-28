@@ -1,9 +1,9 @@
 .container__small-card {
-  width: 500px;
+  width: 600px;
   display: flex;
 }
 .container__small-card > img {
-  min-width: 200px;
+  min-width: 250px;
   height: 150px;
   object-fit: cover;
 }

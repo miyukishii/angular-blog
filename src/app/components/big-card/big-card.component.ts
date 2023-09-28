@@ -14,6 +14,8 @@ export class BigCardComponent implements OnInit {
   postDate: string = ""
   @Input()
   abstract: string = ""
+  @Input()
+  slug: string = ""
 
   constructor() {}
   ngOnInit(): void {}
