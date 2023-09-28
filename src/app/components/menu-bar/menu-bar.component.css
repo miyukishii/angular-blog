@@ -1,0 +1,17 @@
+.container__menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 1rem;
+}
+.container__menu>li>a {
+  font-size: 21px;
+}
+.container__menu>li>div {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+}
