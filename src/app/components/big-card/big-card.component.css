@@ -1,0 +1,32 @@
+.container__big-card {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+}
+.container__big-card > img {
+  height: 350px;
+  width: 100%;
+  max-width: 550px;
+}
+.container__big-card > span {
+  margin: 16px 0;
+  font-size: 12px;
+  color: gray;
+}
+.container__big-card > h1 {
+  font-size: 30px;
+}
+.container__big-card > p {
+  margin-top: 10px;
+  font-size: 18px;
+  color: gray;
+}
+.container__big-card > a {
+  font-size: 18px;
+  width: 80px;
+  text-align: center;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #FFFFFF;
+  margin: 1rem;
+  align-self: end;
+}
