@@ -1,0 +1,39 @@
+.container__post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 5rem;
+}
+
+.container__post>a {
+  font-size: 21px;
+  margin-bottom: 2rem;
+}
+
+.container__post>img {
+  height: 450px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.container__post>h1 {
+  padding: 0.2rem 2rem;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.container__post-text {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.container__post-text>p {
+  font-size: 18px;
+  line-height: 1.6rem;
+}

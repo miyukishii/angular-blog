@@ -12,6 +12,8 @@ export class SmallCardComponent implements OnInit {
   cardTitle: string = ""
   @Input()
   postDate: string = ""
+  @Input()
+  slug: string = ""
 
   constructor() {}
   ngOnInit(): void {}
