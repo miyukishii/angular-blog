@@ -1,0 +1,12 @@
+.container__articles {
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+  gap: 5rem;
+}
+
+.container__small-articles {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
