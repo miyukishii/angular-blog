@@ -1,0 +1,31 @@
+.container__not-found {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+.container__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+
+.container__main>h1 {
+  font-size: 150px;
+}
+
+.container__main>p {
+  font-size: 21px;
+}
+
+.container__main>button {
+  margin-top: 2rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 12px;
+  text-transform: uppercase;
+  background-color: rgb(158, 152, 152);
+  font-size: 18px;
+  cursor: pointer;
+}
