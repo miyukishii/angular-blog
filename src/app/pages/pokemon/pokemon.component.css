@@ -1,4 +1,40 @@
 .container__pokemons {
   width: 80%;
-  margin:  4rem auto;
+  margin: 4rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 5rem;
+}
+
+.container__input>label {
+  font-size: 1.5rem;
+}
+
+.container__input>input {
+  width: 350px;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #b9b2b2;
+  border: none;
+  color: black;
+}
+
+.container__input>button {
+  padding: 1rem;
+  border: none;
+}
+
+.container__input>button:hover {
+  background-color: #e6d8d849;
+  border-radius: 8px;
+  cursor: pointer;
 }

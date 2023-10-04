@@ -1,3 +1,10 @@
 <div class="container__pokemons">
-  <app-pokemon-card></app-pokemon-card>
+  <div class="container__input">
+    <label for="pokemon-search">Procurar por um pokémon:</label>
+    <input id="pokemon-search" type="text" (input)="handleChange($any($event.target).value)">
+    <button (click)="searchPokemon()">buscar</button>
+  </div>
+  <app-pokemon-card
+    pokemonName="{{pokemonName}}"
+  ></app-pokemon-card>
 </div>

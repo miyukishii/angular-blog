@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./pokemon.component.css']
 })
 export class PokemonComponent {
+  searchName: string = "";
+  pokemonName: string = "";
 
+  handleChange(searchName: string): void {
+    this.searchName = searchName;
+  }
+  searchPokemon(): void {
+    this.pokemonName = this.searchName;
+  }
 }
