@@ -1,0 +1,15 @@
+<div class="container__pokemon-card" *ngIf="pokemonLoaded">
+  <h1>{{ pokemonData.name }}</h1>
+  <div class="container__pokemon-image">
+    <img [src]="pokemonData.sprites.front_default" [alt]="'Pokémon: ' + pokemonData.name">
+  </div>
+  <div class="container__types">
+    <p *ngFor="let type of pokemonData.types" class="type {{ type.type.name }}">
+      {{ type.type.name }}
+    </p>
+  </div>
+</div>
+
+<div *ngIf="notFound">
+  <p>Nenhum pokémon foi encontrado!</p>
+</div>
