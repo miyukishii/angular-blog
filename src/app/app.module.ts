@@ -10,6 +10,7 @@ import { SmallCardComponent } from './components/small-card/small-card.component
 import { HomeComponent } from './pages/home/home.component';
 import { PostComponent } from './pages/post/post.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { PokemonComponent } from './pages/pokemon/pokemon.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
     SmallCardComponent,
     HomeComponent,
     PostComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    PokemonComponent
   ],
   imports: [
     BrowserModule,
